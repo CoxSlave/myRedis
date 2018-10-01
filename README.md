@@ -93,9 +93,8 @@ che.delete("key1")
 ```
 
 >h. 模糊搜索(使用通配符搜索的例子)
-		c
 ```
-ache.keys("foo_*")
+cache.keys("foo_*")
 	>>	["foo_1", "foo_2"]
 2.8以上的版本,可以使用iter_keys取代 keys, 返回一个迭代器
 cache.iter_keys("foo_*")
